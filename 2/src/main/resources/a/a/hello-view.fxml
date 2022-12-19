@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #002137;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="a.a.HelloApplication">
+   <children>
+      <Label fx:id="ru" layoutX="71.0" layoutY="78.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: #fafafa;" text="0" />
+      <Label fx:id="eu" layoutX="71.0" layoutY="121.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: #fafafa;" text="0" />
+      <Label fx:id="dl" layoutX="71.0" layoutY="163.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: #fafafa;" text="0" />
+      <Label layoutX="192.0" layoutY="78.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: #fafafa;" text="рубли" />
+      <Label fx:id="ef" layoutX="327.0" layoutY="78.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: #fafafa;" text="0" />
+      <Label layoutX="449.0" layoutY="78.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: #fafafa;" text="эфир" />
+      <Label layoutX="192.0" layoutY="121.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: #fafafa;" text="евро" />
+      <Label layoutX="192.0" layoutY="163.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: #fafafa;" text="доллары" />
+      <Label fx:id="bt" layoutX="327.0" layoutY="121.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: #fafafa;" text="0" />
+      <Label layoutX="449.0" layoutY="121.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: #fafafa;" text="биткоин" />
+      <Label fx:id="gl" layoutX="327.0" layoutY="163.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: #fafafa;" text="0" />
+      <Label layoutX="449.0" layoutY="163.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: #fafafa;" text="золото за гр" />
+      <Label fx:id="ua" layoutX="71.0" layoutY="202.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: #fafafa;" text="0" />
+      <Label layoutX="192.0" layoutY="202.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: #fafafa;" text="юани" />
+      <TextField fx:id="rub" layoutX="71.0" layoutY="335.0" prefHeight="26.0" prefWidth="110.0" />
+      <TextField fx:id="euro" layoutX="71.0" layoutY="376.0" prefHeight="26.0" prefWidth="110.0" />
+      <TextField fx:id="dollar" layoutX="71.0" layoutY="416.0" prefHeight="26.0" prefWidth="110.0" />
+      <TextField fx:id="uan" layoutX="71.0" layoutY="457.0" prefHeight="26.0" prefWidth="110.0" />
+      <TextField fx:id="efir" layoutX="327.0" layoutY="335.0" prefHeight="26.0" prefWidth="110.0" />
+      <TextField fx:id="bitcoin" layoutX="327.0" layoutY="376.0" prefHeight="26.0" prefWidth="110.0" />
+      <TextField fx:id="gold" layoutX="327.0" layoutY="416.0" prefHeight="26.0" prefWidth="110.0" />
+      <Button fx:id="conv" layoutX="626.0" layoutY="207.0" mnemonicParsing="false" prefHeight="186.0" prefWidth="130.0" text="конвертировать" />
+      <Label layoutX="192.0" layoutY="332.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: #fafafa;" text="рубли" />
+      <Label layoutX="192.0" layoutY="373.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: #fafafa;" text="евро" />
+      <Label layoutX="192.0" layoutY="413.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: #fafafa;" text="доллары" />
+      <Label layoutX="192.0" layoutY="454.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: #fafafa;" text="юани" />
+      <Label layoutX="449.0" layoutY="332.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: #fafafa;" text="эфир" />
+      <Label layoutX="449.0" layoutY="373.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: #fafafa;" text="биткоин" />
+      <Label layoutX="449.0" layoutY="413.0" prefHeight="31.0" prefWidth="110.0" style="-fx-background-color: #fafafa;" text="гр золота" />
+   </children>
+</AnchorPane>
